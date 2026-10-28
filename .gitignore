@@ -1,0 +1,18 @@
+# Secrets and credentials: never commit these
+*.pfx
+*.publishsettings
+*.key
+*.pem
+*.env
+*secrets*
+*credentials*
+*.azureProfile.json
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+*.log
+*.bak
+*.tmp
