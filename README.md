@@ -2,13 +2,13 @@
 
 PowerShell scripts for bulk-creating Active Directory users from a CSV file.
 
-## Contents
+## Layout
 
-| File | Purpose |
+| Path | Purpose |
 |---|---|
-| `AD Users Creation with minimum required field.ps1` | Creates users from a CSV with only the required attributes |
-| `AD Users Creation with minimum required field 1.ps1` | Variant of the above |
-| `Test1.csv` | Sample input with placeholder values |
+| `scripts/New-AD-Users-from-CSV.ps1` | Creates users from a CSV with only the required attributes |
+| `scripts/New-AD-Users-from-CSV-v2.ps1` | Variant of the above |
+| `samples/users-sample.csv` | Sample input with placeholder values |
 
 ## Usage
 
@@ -18,7 +18,7 @@ PowerShell scripts for bulk-creating Active Directory users from a CSV file.
 
 ```powershell
 Import-Module ActiveDirectory
-.\"AD Users Creation with minimum required field.ps1"
+.\scripts\New-AD-Users-from-CSV.ps1
 ```
 
 ## Notes
